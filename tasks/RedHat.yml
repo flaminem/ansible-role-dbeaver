@@ -1,0 +1,8 @@
+---
+- name: Download dbeaver
+  get_url: url={{ dbeaver_url_rpm }} dest={{dbeaver_tmp_rpm}}
+  tags: ["packages","dbeaver"]
+
+- name: Install dbeaver for RedHat OS family
+  yum: name={{dbeaver_tmp_rpm}}
+  tags: ["packages","dbeaver"]

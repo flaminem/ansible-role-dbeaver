@@ -1,0 +1,5 @@
+---
+dbeaver_version: "3.7.3"
+dbeaver_tmp_dir: "/opt/ansible_downloads/"
+dbeaver_tmp_deb: "{{dbeaver_tmp_dir}}/dbeaver_{{dbeaver_version}}.deb"
+dbeaver_tmp_rpm: "{{dbeaver_tmp_dir}}/dbeaver_{{dbeaver_version}}.rpm"

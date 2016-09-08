@@ -1,0 +1,3 @@
+---
+dbeaver_url_deb: "https://github.com/serge-rider/dbeaver/releases/download/{{dbeaver_version}}/dbeaver-ce_{{dbeaver_version}}_amd64.deb"
+dbeaver_url_rpm: "https://github.com/serge-rider/dbeaver/releases/download/{{dbeaver_version}}/dbeaver-ce-{{dbeaver_version}}-stable.{{ansible_architecture}}.rpm"
