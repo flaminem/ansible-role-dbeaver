@@ -1,4 +1,4 @@
-ansible-role-vagrant
+ansible-role-DBeaver
 ====================
 
 Install DBeaver with Ansible
@@ -24,5 +24,5 @@ ansible-playbook -i "localhost," --ask-sudo-pass --connection=local installation
  - hosts: all
    roles:
     - role: dbeaver
-      vagrant_version: "3.7.3"
+      dbeaver_version: "3.7.3"
 ```
